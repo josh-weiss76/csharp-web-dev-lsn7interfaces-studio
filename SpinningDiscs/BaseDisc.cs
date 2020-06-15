@@ -45,10 +45,7 @@ namespace SpinningDiscs
             {
                 Type = "unknown";
             }
-            if (MaxStorage == null)
-            {
-                MaxStorage = 700;  
-            }
+            
             string label = Name + " is a " + Type + " with a maximum storage of " + MaxStorage + " MB.";
             return label;
         }
